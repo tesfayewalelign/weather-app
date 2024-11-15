@@ -1,14 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
 body{
   background: #ebe8e8;
   font-family: Arial, Helvetica, sans-serif
 }
 
 .search {
-  width: 100%;
+  width: 350px;
   position: relative;
   display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  border-radius: 35px;
+  margin-left: 40px;
 }
 
 .searchTerm {
@@ -39,8 +44,8 @@ body{
   font-size: 20px;
 }
 .wrap{
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,11 +60,13 @@ body{
   display: flex;
   flex-direction: row;
   color: white;
+  margin-top: 80px;
 
   }
   .temp{
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 
 
   }
@@ -67,27 +74,38 @@ body{
 
     width: 20px;
     height: 10px;
-.p1{
-    margin-right: 40px;
-}
+    text-align: center;
+
   }
   .raincon{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 70px;
+  
 
   }
   .rain{
     width: 20px;
     height: 10px;
+    text-align: center;
 
   }
   .windcon{
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 
   }
-  .rain{
-    margin-left: 30px;
+  .wind{
+    width: 20px;
+    height: 5px;
+    text-align: center;
+  }
+  .map{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+    
   }
 
